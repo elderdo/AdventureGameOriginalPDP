@@ -1,0 +1,130 @@
+advent.for:2289.25:
+
+        DATA MASK,BLANK/"774000000000,' '/                              
+                         1
+Error: Unterminated character constant beginning at (1)
+advent.for:2484.72:
+
+10      FORMAT(' This adventure was suspended a mere',I3,' minutes ago.'
+                                                                        1
+Error: Unexpected end of format string in format string at (1)
+advent.for:2544.20:
+
+1       FORMAT(G)                                                       
+                    1
+Error: Positive width required in format specifier G at (1)
+advent.for:2564.62:
+
+16      FORMAT(' Latency for restart (null to leave at',I3,''):')       
+                                                              1
+Error: Syntax error in FORMAT statement at (1)
+advent.for:2741.20:
+
+3       FORMAT(G)                                                       
+                    1
+Error: Positive width required in format specifier G at (1)
+advent.for:2807.15:
+
+        WKDAY="00777400                                                 
+               1
+Error: Unterminated character constant beginning at (1)
+advent.for:2831.25:
+
+        IF(SHIFT.LT.0)J="200000000000                                   
+                         1
+Error: Unterminated character constant beginning at (1)
+advent.for:2832.27:
+
+11      SHIFT=((SHIFT.AND."377777777777)/2)+J                           
+                           1
+Error: Unterminated character constant beginning at (1)
+advent.for:2834.72:
+
+30      DO 31 I=1,DIST                                                  
+                                                                        1
+advent.for:2829.72:
+
+        DO 11 I=1,IDIST                                                 
+                                                                        2
+Error: Variable 'i' at (1) cannot be redefined inside loop beginning at (2)
+advent.for:2836.45:
+
+        IF((SHIFT.AND."200000000000).NE.0)J="400000000000               
+                                             1
+Error: Expected a right parenthesis in expression at (1)
+advent.for:2837.26:
+
+31      SHIFT=(SHIFT.AND."177777777777)*2+J                             
+                          1
+Error: Unterminated character constant beginning at (1)
+advent.for:2839.8:
+
+        END                                                             
+        1
+Error: END DO statement expected at (1)
+advent.for:2843.72:
+
+        INTEGER FUNCTION RAN(RANGE)                                     
+                                                                        1
+Error: Unexpected data declaration statement at (1)
+advent.for:2850.72:
+
+        IMPLICIT INTEGER(A-Z)                                           
+                                                                        1
+Error: Letter A already has an IMPLICIT type at (1)
+advent.for:2862.8:
+
+        END                                                             
+        1
+Error: END DO statement expected at (1)
+advent.for:2866.8:
+
+        SUBROUTINE DATIME(D,T)                                          
+        1
+Error: Unclassifiable statement at (1)
+advent.for:2872.72:
+
+        IMPLICIT INTEGER(A-Z)                                           
+                                                                        1
+Error: Letter A already has an IMPLICIT type at (1)
+advent.for:2873.72:
+
+        DIMENSION DAT(2),MONTHS(12),HATH(12)                            
+                                                                        1
+Error: Unexpected attribute declaration statement at (1)
+advent.for:2880.20:
+
+        I2(X)=(SHIFT(X,-29).AND.15)*10+(SHIFT(X,-22).AND.15)            
+                    1
+Error: Expected a right parenthesis in expression at (1)
+advent.for:2885.21:
+
+        YEAR=I2(SHIFT(DAT(2),14))-77                                    
+                     1
+Error: Syntax error in argument list at (1)
+advent.for:2887.17:
+
+        X=((SHIFT(DAT(1),14).OR.SHIFT(DAT(2),-21)).AND..NOT."1004020001)
+                 1
+Error: Expected a right parenthesis in expression at (1)
+advent.for:2888.6:
+
+     1       .OR.'-@@@-'                                                
+      1
+Error: Bad continuation line at (1)
+advent.for:2888.14:
+
+     1       .OR.'-@@@-'                                                
+              1
+Error: Invalid character in name at (1)
+advent.for:2891.22:
+
+        IF(X.EQ.MONTHS(MON))GOTO 2                                      
+                      1
+Error: Syntax error in IF-expression at (1)
+advent.for:2892.8:
+
+1       D=D+HATH(MON)                                                   
+        1
+Error: Unclassifiable statement at (1)
+Fatal Error: Error count reached limit of 25.
